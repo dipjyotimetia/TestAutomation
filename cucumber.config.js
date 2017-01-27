@@ -1,9 +1,6 @@
 /**
  * Created by Dipjyoti on 27-Jan-17.
  */
-/**
- * Created by Dipjyoti on 22-Jan-17.
- */
 var date=new Date();
 var day=date.getUTCDate();
 var time=date.getTime();

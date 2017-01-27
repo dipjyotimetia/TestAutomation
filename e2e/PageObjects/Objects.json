@@ -1,0 +1,23 @@
+{
+  "testsiteURL":"http://www.gmail.com",
+
+  "locators" : {
+
+    "loginpage": {
+
+      "username":"//*[@id='Email']",
+      "next":"//*[@id='next']",
+      "password":"//*[@id='Passwd']",
+      "SignIn":"//*[@id='signIn']"
+    }
+
+  },
+
+  "userdetails":{
+
+    "username1":"dipjyotimetia",
+    "password1":"dip@1990",
+    "username2":"dipjyotimetia",
+    "password2":"dip@1990"
+  }
+}

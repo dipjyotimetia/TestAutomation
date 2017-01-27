@@ -1,0 +1,33 @@
+{
+  "testsiteURL":"http://www.gmail.com",
+  "bankURL":"http://www.demo.guru99.com/V4/index.php",
+  "userName":"",
+  "password":"",
+
+  "TestCase1" : {
+
+    "banklogindetails":{
+
+      "username":"mngr55398",
+      "password":"qAqUzEr"
+    },
+
+    "customerdetails":{
+
+    }
+  },
+
+  "TestCase2" : {
+
+    "banklogindetails":{
+
+      "username":"mngr55398",
+      "password":"qAqUzEr"
+    },
+
+    "customerdetails":{
+
+    }
+  }
+
+}

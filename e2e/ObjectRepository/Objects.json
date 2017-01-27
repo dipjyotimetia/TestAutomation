@@ -1,0 +1,66 @@
+{
+  "testsiteURL":"http://www.gmail.com",
+  "bankURL":"http://www.demo.guru99.com/V4/index.php",
+
+  "locators" : {
+
+    "loginpage": {
+
+      "username":"//*[@id='Email']",
+      "next":"//*[@id='next']",
+      "password":"//*[@id='Passwd']",
+      "SignIn":"//*[@id='signIn']"
+    },
+
+    "loginpagebank": {
+
+      "username":"uid",
+      "password":"password",
+      "LoginButton":"btnLogin"
+    },
+
+    "bankdashboard":{
+      "newcustomer":"html/body/div[2]/div/ul/li[2]/a"
+    },
+
+    "addnewcustomer":{
+      "customername":"name",
+      "dob":"dob",
+      "address":"addr",
+      "city":"city",
+      "state":"state",
+      "pin":"pinno",
+      "phoneno":"telephoneno",
+      "email":"emailid",
+      "password":"password",
+      "submitbutton":"sub"
+    }
+  },
+
+  "userdetails":{
+
+    "username1":"dipjyotimetia",
+    "password1":"dip@1990",
+    "username2":"dipjyotimetia",
+    "password2":"dip@1990"
+  },
+
+  "banklogindetails":{
+
+    "username":"mngr59890",
+    "password":"zUvAzet"
+  },
+
+  "customerdetails":{
+    "CustomerName":"Simon Paul",
+    "DOB":"12/12/1992",
+    "Address":"1218/139 Lonsdale,Melbourne",
+    "City":"Victoria",
+    "State":"Melbourne",
+    "Pin":"3000",
+    "PhoneNo":"7564789876",
+    "Email":"xyzabc@gmail.com",
+    "Password":"abcdef"
+  }
+
+}

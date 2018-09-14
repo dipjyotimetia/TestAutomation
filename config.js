@@ -35,7 +35,7 @@ exports.config = {
     capabilities: {
         'browserName': 'chrome',
         'chromeOptions': {
-            'args': ["--headless","disable-extensions"]
+            'args': ["--headless","no-sandbox","disable-extensions"]
         }
         // browserName: 'firefox',
         //

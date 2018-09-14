@@ -35,8 +35,13 @@ exports.config = {
     capabilities: {
         'browserName': 'chrome',
         'chromeOptions': {
-            'args': ['disable-extensions']
+            'args': ["--headless","disable-extensions"]
         }
+        // browserName: 'firefox',
+        //
+        // 'moz:firefoxOptions': {
+        //     args: [ "--headless" ]
+        // }
     },
 
     //TestSuites

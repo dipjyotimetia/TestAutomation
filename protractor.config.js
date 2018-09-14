@@ -1,5 +1,6 @@
 /**
  * Created by Dipjyoti on 15-Dec-16.
+ * Modified on 14-Oct-18
  */
 
 var fs = require('fs');
@@ -122,12 +123,12 @@ exports.config = {
     jasmine.getEnv().addReporter(new Jasmine2HtmlReporter({
       savePath:'./reports/',
       ////Uncomment if required full consolidate details
-      // screenshotsFolder:'images',
-      // takeScreenshots:true,
-      // takeScreenshotsOnlyOnFailures:false,
-      // fixedScreenshotName:true,
-      // consolidate:true,
-      // consolidateAll:true
+      screenshotsFolder:'images',
+      takeScreenshots:true,
+      takeScreenshotsOnlyOnFailures:false,
+      fixedScreenshotName:true,
+      consolidate:true,
+      consolidateAll:true
       })
     );
   },

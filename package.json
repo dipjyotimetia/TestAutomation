@@ -1,28 +1,20 @@
 {
-  "name": "angular-E2E",
+  "name": "angularE2E",
   "version": "2.0.0",
   "description": "Angular E2E test",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "e2e": "tsc && concurrently \"http-server -s\" \"protractor protractor.config.js\" --kill-others --success first",
-    "lint": "tslint ./app/**/*.ts -t verbose",
-    "lite": "lite-server",
-    "pree2e": "webdriver-manager update",
-    "test": "tsc && concurrently \"tsc -w\" \"karma start karma.conf.js\"",
-    "test-once": "tsc && karma start karma.conf.js --single-run",
-    "tsc": "tsc",
-    "tsc:w": "tsc -w"
+    "pretest": "npm install",
+    "e2e": "protractor config.js",
+    "test": "npm run-script e2e || npm run-script report --continue-on-error",
+    "report": "allure generate allure-results --clean -o allure-report || true"
   },
   "keywords": [
     "Protractor",
-    "Angular"
+    "Angular2"
   ],
   "author": "Dipjyoti Metia",
   "license": "MIT",
   "dependencies": {
-    "@types/jasmine": "^2.8.8",
-    "@types/node": "^10.9.4",
-    "@types/selenium-webdriver": "^3.0.10",
     "canonical-path": "0.0.2",
     "concurrently": "^4.0.1",
     "grunt": "^1.0.3",
@@ -61,5 +53,8 @@
     "xlsjs": "^1.0.1",
     "xlsx": "^0.14.0",
     "xlsx-to-json": "^0.3.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.7.0"
   }
 }

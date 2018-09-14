@@ -33,7 +33,10 @@ exports.config = {
     framework: 'jasmine2',
 
     capabilities: {
-        'browserName': 'chrome'
+        'browserName': 'chrome',
+        'chromeOptions': {
+            'args': ['disable-extensions']
+        }
     },
 
     //TestSuites

@@ -4,6 +4,7 @@
   "description": "Angular E2E test",
   "scripts": {
     "pretest": "npm install",
+    "webdriver": "webdriver-manager update",
     "e2e": "protractor config.js",
     "test": "npm run-script e2e || npm run-script report --continue-on-error",
     "report": "allure generate allure-results --clean -o allure-report || true"
@@ -28,8 +29,9 @@
     "gulp": "^3.9.1",
     "gulp-angular-protractor": "^1.2.0",
     "gulp-protractor": "^4.1.0",
-    "http-server": "^0.9.0",
+    "http-server": "^0.11.1",
     "jasmine": "^3.2.0",
+    "jasmine-allure-reporter": "^1.0.2",
     "jasmine-core": "~3.2.1",
     "jasmine-data-provider": "^2.2.0",
     "jasmine-reporters": "^2.3.2",
@@ -44,7 +46,6 @@
     "protractor-helpers": "^1.1.473",
     "protractor-jasmine2-html-reporter": "0.0.7",
     "protractor-jasmine2-screenshot-reporter": "^0.5.0",
-    "jasmine-allure-reporter": "^1.0.2",
     "rimraf": "^2.6.2",
     "tslint": "^5.11.0",
     "typescript": "~3.0.3",
@@ -52,7 +53,8 @@
     "winston-daily-rotate-file": "^3.3.2",
     "xlsjs": "^1.0.1",
     "xlsx": "^0.14.0",
-    "xlsx-to-json": "^0.3.0"
+    "xlsx-to-json": "^0.3.0",
+    "webdriver-manager": "^12.1.0"
   },
   "devDependencies": {
     "allure-commandline": "^2.7.0"

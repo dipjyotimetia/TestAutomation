@@ -4,7 +4,7 @@
   "description": "Angular E2E test",
   "scripts": {
     "pretest": "npm install",
-    "webdriver": "webdriver-manager update",
+    "webdriver-update": "webdriver-manager update",
     "e2e": "protractor config.js",
     "ci": "protractor ciconfig.js",
     "test": "npm run-script e2e || npm run-script report --continue-on-error",

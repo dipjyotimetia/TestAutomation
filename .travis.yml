@@ -11,6 +11,7 @@ install:
 - npm install -g grunt
 - npm install -g gulp
 - npm install -g webdriver-manager
+- npm install
 - webdriver-manager update
 script:
-- npm test
+- npm travis

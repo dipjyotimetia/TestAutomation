@@ -6,7 +6,9 @@
     "pretest": "npm install",
     "webdriver": "webdriver-manager update",
     "e2e": "protractor config.js",
+    "ci": "protractor ciconfig.js",
     "test": "npm run-script e2e || npm run-script report --continue-on-error",
+    "travis": "npm run-script ci || npm run-script report --continue-on-error",
     "report": "allure generate allure-results --clean -o allure-report || true"
   },
   "keywords": [

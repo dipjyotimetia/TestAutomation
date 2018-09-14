@@ -14,4 +14,4 @@ install:
 - npm install
 - webdriver-manager update
 script:
-- npm travis
+- npm run travis

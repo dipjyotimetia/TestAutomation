@@ -1,9 +1,10 @@
 language: node_js
 node_js:
-- "node"
 - "8"
 install:
 - npm install -g protractor
+- npm install -g grunt
+- npm install -g gulp
 - webdriver-manager update
 script:
 - npm test

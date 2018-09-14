@@ -29,6 +29,7 @@ var reporter = new HtmlScreenshotReporter({
 });
 
 exports.config = {
+    chromeOnly: true,
     directConnect: true,
     framework: 'jasmine2',
 

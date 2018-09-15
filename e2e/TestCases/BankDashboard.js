@@ -45,7 +45,7 @@ describe("Login to bank application", function () {
     });
 
     it("AddCustomer", function () {
-        browser.driver.findElement(by.xpath("html/body/div[2]/div/ul/li[2]/a")).click();
+        browser.driver.findElement(by.xpath("/html/body/div[3]/div/ul/li[2]/a")).click();
         AddCustomer.AddCustomer(CustomerName, DOB, Address, City, State, Pin, PhoneNo, Email, Password);
         // browser.driver.findElement(by.name("name")).sendKeys(CustomerName);
 

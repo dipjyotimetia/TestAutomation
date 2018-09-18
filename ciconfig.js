@@ -37,7 +37,7 @@ exports.config = {
         'chromeOptions': {
             'args':
                 [
-                    "--headless","no-sandbox","disable-extensions"
+                    "--headless","no-sandbox","disable-extensions","remote-debugging-port=9222"
                 ]
         }
         // browserName: 'firefox',

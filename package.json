@@ -45,6 +45,7 @@
     "protractor-accessibility-plugin": "^0.3.0",
     "protractor-compass": "^1.0.0",
     "protractor-helpers": "^1.1.473",
+    "protractor-helper": "^3.4.5",
     "protractor-jasmine2-html-reporter": "0.0.7",
     "protractor-jasmine2-screenshot-reporter": "^0.5.0",
     "rimraf": "^2.6.2",
